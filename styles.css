@@ -1,0 +1,97 @@
+body {
+    background-image: url("background_image.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: rgba(39, 46, 71, 0.493);
+    color: rgb(243, 243, 243);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1vmin;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    margin-top: calc(-50vw + 50%);
+}
+
+header h1 {
+    text-align: center;
+    margin: 0px;
+}
+
+@media only screen and (min-width: 530px) {
+    #city-input {
+        background-color: transparent;
+        font-size: 1.333em;
+        width: fit-content;
+        margin: 0.5em 1em 0.5em 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    #city-input {
+        background-color: transparent;
+        font-size: 1.333em;
+        width: 80%;
+        margin: 0.5em 1em 0.5em 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid;
+    }
+}
+
+.flex-container {
+    background-color: rgba(0, 0, 0, 0.356);
+    border-radius: 1vmin;
+    margin-top: 5vmin;
+    padding-bottom: 2vmin;
+    align-items: center;
+    text-align: center;
+}
+
+#input-container {
+    align-items: center;
+    margin: 1em;
+    font-size: 1.5em;
+    text-align: center;
+    display: inline-block;
+}
+
+#weather-container {
+    align-items: center;
+    margin: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+#weather-icon {
+    margin: 0px;
+    display: inline-block;
+}
+
+
+.btn {
+    background-color: rgb(233, 233, 233);
+    color: rgb(39, 46, 71);
+    font-size: 1em;
+    padding: 0.5em 2em 0.5em 2em;
+    border-radius: 0.667em;
+    border: none;
+}
+
+.btn:hover, .btn:active {
+    background-color: rgb(199, 199, 199);
+}
